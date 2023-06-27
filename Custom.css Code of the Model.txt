@@ -1,0 +1,134 @@
+/* high */
+  *:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a[data-ref=high].tag {
+    background-color: var(--ls-primary-text-color);
+    background-color: rgb(255, 0, 0);
+    border-radius: 18px;
+    color: var(--ls-primary-text-color);
+    color: white
+
+  }
+/* medium */
+  *:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a[data-ref=medium].tag {
+    background-color: var(--ls-primary-text-color);
+    background-color: rgb(231, 189, 18);
+    border-radius: 18px;
+    color: var(--ls-primary-text-color);
+    color: white
+
+  }
+/* low */
+  *:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a[data-ref=low].tag {
+    background-color: var(--ls-primary-text-color);
+    background-color: rgb(128, 255, 0);
+    border-radius: 18px;
+    color: var(--ls-primary-text-color);
+    color: white
+
+  }
+/* verification in progress */
+  *:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a[data-ref=verificationinprogress].tag {
+    background-color: var(--ls-primary-text-color);
+    background-color: rgb(17, 168, 232);
+    border-radius: 18px;
+    color: var(--ls-primary-text-color);
+    color: white
+
+  }
+/* effective */
+  *:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a[data-ref=effective].tag {
+    background-color: var(--ls-primary-text-color);
+    background-color: rgb(17, 232, 136);
+    border-radius: 18px;
+    color: var(--ls-primary-text-color);
+    color: white
+
+  }
+/* ineffective */
+  *:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a[data-ref=ineffective].tag {
+    background-color: var(--ls-primary-text-color);
+    background-color: rgb(232, 136, 17);
+    border-radius: 18px;
+    color: var(--ls-primary-text-color);
+    color: white
+
+  }
+/* action planified */
+  *:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a[data-ref=actionplanified].tag {
+    background-color: var(--ls-primary-text-color);
+    background-color: rgb(160, 160, 160);
+    border-radius: 18px;
+    color: var(--ls-primary-text-color);
+    color: white
+
+  }
+/* work in progress */
+  *:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a[data-ref=workinprogress].tag {
+    background-color: var(--ls-primary-text-color);
+    background-color: rgb(96, 96, 96);
+    border-radius: 18px;
+    color: var(--ls-primary-text-color);
+    color: white
+
+  }
+/* work done */
+  *:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a[data-ref=workdone].tag {
+    background-color: var(--ls-primary-text-color);
+    background-color: rgb(32, 32, 32);
+    border-radius: 18px;
+    color: var(--ls-primary-text-color);
+    color: white
+
+  }
+/* Valid Cause */
+  *:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a[data-ref=validcause].tag {
+    background-color: var(--ls-primary-text-color);
+    background-color: rgb(128, 255, 0);
+    border-radius: 18px;
+    color: var(--ls-primary-text-color);
+    color: white
+
+  }
+/* Invalid Cause */
+  *:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a[data-ref=invalidcause].tag {
+    background-color: var(--ls-primary-text-color);
+    background-color: rgb(255, 0, 0);
+    border-radius: 18px;
+    color: var(--ls-primary-text-color);
+    color: white
+
+  }
+/* Validation In Progress */
+  *:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a[data-ref=validationinprogress].tag {
+    background-color: var(--ls-primary-text-color);
+    background-color: rgb(231, 189, 18);
+    border-radius: 18px;
+    color: var(--ls-primary-text-color);
+    color: white
+
+  }
+/* To Implement */
+  *:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a[data-ref=toimplement].tag {
+    background-color: var(--ls-primary-text-color);
+    background-color: rgb(17, 232, 136);
+    border-radius: 18px;
+    color: var(--ls-primary-text-color);
+    color: white
+
+  }
+/* Do Not Implement */
+  *:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a[data-ref=donotimplement].tag {
+    background-color: var(--ls-primary-text-color);
+    background-color: rgb(232, 136, 17);
+    border-radius: 18px;
+    color: var(--ls-primary-text-color);
+    color: white
+
+  }
+/* WithoutDecision */
+  *:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a[data-ref=withoutdecision].tag {
+    background-color: var(--ls-primary-text-color);
+    background-color: rgb(17, 168, 232);
+    border-radius: 18px;
+    color: var(--ls-primary-text-color);
+    color: White
+}

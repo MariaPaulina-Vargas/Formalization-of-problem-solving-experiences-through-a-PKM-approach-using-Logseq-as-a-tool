@@ -266,7 +266,7 @@
      :block/format :markdown,
      :block/children [],
      :block/content ""})}
-  {:block/id #uuid "d9c5b9d3-6352-4a5f-8c0f-e57c37d7033f",
+  {:block/id #uuid "e9d58f5e-8090-4ced-a944-31d52d6d432f",
    :block/page-name "DONE",
    :block/properties {:exclude-from-graph-view true},
    :block/children
@@ -864,7 +864,12 @@
      :block/properties nil,
      :block/format :markdown,
      :block/children [],
-     :block/content "[[Ishikawa 02]]"})}
+     :block/content ""}
+    {:block/id #uuid "6499a1a9-565c-43f8-b26e-a9313abecc17",
+     :block/properties nil,
+     :block/format :markdown,
+     :block/children [],
+     :block/content ""})}
   {:block/id #uuid "6479df4b-8dcd-4357-ae1c-8032679f58b7",
    :block/page-name "Not Started",
    :block/properties {:exclude-from-graph-view true},
@@ -1666,7 +1671,7 @@
            :block/format :markdown,
            :block/children [],
            :block/content
-           "`Action-responsible` ➡ You must write the name of the person in charge of carrying out the action"}
+           "`Action-responsible` ➡ You must write the name between [[]] of the person in charge of carrying out the action"}
           {:block/id #uuid "6479df48-8846-4533-9248-2baf1eaaf0c5",
            :block/properties nil,
            :block/format :markdown,
@@ -2746,7 +2751,13 @@
       "a81d5b00-141c-11ee-a621-bb01306623f9"
       "ae8b2b20-141c-11ee-a621-bb01306623f9"
       "c4b2dc40-141c-11ee-a621-bb01306623f9")}},
-   :block/children ()}
+   :block/format :markdown,
+   :block/children
+   ({:block/id #uuid "6499a19e-09fa-4a56-8d3f-b93d07c9a299",
+     :block/properties nil,
+     :block/format :markdown,
+     :block/children [],
+     :block/content ""})}
   {:block/id #uuid "6479df44-55d5-40ab-b0a0-b09c8fb93993",
    :block/page-name "(get block :block",
    :block/properties {:exclude-from-graph-view true},
@@ -3195,7 +3206,7 @@
          :block/format :markdown,
          :block/children [],
          :block/content
-         "`Action-responsible` ➡ You must write the name of the page that contains the name of the person in charge of carrying out the action."}
+         "`Action-responsible` ➡ You must write the name between [[]] of the person in charge of carrying out the action."}
         {:block/id #uuid "6479df4c-c5b7-4399-80fe-aa089582641c",
          :block/properties nil,
          :block/format :markdown,
@@ -3643,13 +3654,13 @@
            :block/format :markdown,
            :block/children [],
            :block/content
-           "`Containment action` ➡ Here you must replace **\"Containment action\"** with the title or description of the containment action you want to create"}
+           "`Containment action` ➡ Here you must replace **\"Containment action\"** with the title or description of the containment action you want to create."}
           {:block/id #uuid "6479df45-99a9-49e6-ab1a-32698417c69a",
            :block/properties nil,
            :block/format :markdown,
            :block/children [],
            :block/content
-           "`Action-responsible` ➡ You must write the name of the page that contains the name of the person in charge of carrying out the action."}
+           "`Action-responsible` ➡ You must write between [[]] the name of the page that contains the name of the person in charge of carrying out the action."}
           {:block/id #uuid "6479df45-caa9-46c1-bcbb-e0d692781a84",
            :block/properties nil,
            :block/format :markdown,
@@ -4073,7 +4084,7 @@
      :block/format :markdown,
      :block/children [],
      :block/content ""})}
-  {:block/id #uuid "bb8dca4e-4f82-4fc8-be47-418af41714e4",
+  {:block/id #uuid "249678d5-e8d1-4d6a-8bb4-6e9b5da5301d",
    :block/page-name "TODO",
    :block/properties {:exclude-from-graph-view true},
    :block/children
@@ -4135,7 +4146,7 @@
            :block/format :markdown,
            :block/children [],
            :block/content
-           "`Action-responsible` ➡ You must write the name of the person in charge of carrying out the action"}
+           "`Action-responsible` ➡ You must write the name between [[]] of the person in charge of carrying out the action"}
           {:block/id #uuid "6479df47-2cb4-4dc7-bbe3-323a9cf05059",
            :block/properties nil,
            :block/format :markdown,
@@ -4851,7 +4862,13 @@
       "21092a80-141d-11ee-a621-bb01306623f9"
       "261f32d0-141d-11ee-a621-bb01306623f9"
       "35386700-141d-11ee-a621-bb01306623f9")}},
-   :block/children ()}
+   :block/format :markdown,
+   :block/children
+   ({:block/id #uuid "6499b19e-68f7-4ebf-86c1-89ab7327972e",
+     :block/properties nil,
+     :block/format :markdown,
+     :block/children [],
+     :block/content ""})}
   {:block/id #uuid "6479df4c-590f-43b2-9fc3-15ab40c7f1ef",
    :block/page-name "<%setinput: Corrective Action Description%>",
    :block/properties {:exclude-from-graph-view true},
